@@ -2,7 +2,7 @@
 
 # Links
 - [Medium Article](https://medium.com/cloudcraftz/an-introduction-to-prompt-engineering-for-openai-gpt-llms-f109ca4f1739)
-(Written by Nimish Sanghi)
+- [Real Python article](https://realpython.com/practical-prompt-engineering/)
 
 # Setup
 - python -m venv venv --upgrade_deps
