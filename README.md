@@ -7,7 +7,18 @@
 # Setup
 - python -m venv venv --upgrade_deps
 - set up .env from dotenv with your keys
+- install requirements : pip install -r requirements.txt
+- Run each file individually
 
+
+# To get number of tokens without LLM call
+```
+>>> import tiktoken
+>>> encoding = tiktoken.encoding_for_model("text-davinci-003")
+>>> tokens = encoding.encode("This is a sample text")
+>>> len(tokens)
+5
+```
 # Text
 
 Write
